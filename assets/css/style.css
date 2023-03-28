@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0 #00154f inset;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #00154f;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -102,7 +119,7 @@ main p, aside p {
     position: sticky;
     top: 0;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /* border-top-right-radius: 10px; */
 }
 /* end main */
 
